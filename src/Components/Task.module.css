@@ -1,0 +1,87 @@
+.table{
+    border:1px solid black;
+    max-width: 80%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.task{
+    display: flex;
+    text-align: left;
+    background-color: hsl(240, 72%, 56%);
+    padding: 15px;
+}
+
+.task .inputToogle, .task .inputToogle input{
+    width:85%;
+    font-size: 20px;
+}
+
+.UpdateDelete{
+    display: flex;
+    text-decoration: column;
+    cursor: pointer;
+}
+
+.task .text{
+    margin-left: 20px;
+    color:white;
+    font-size: 25px;
+}
+
+.addTask{
+    background-color:rgb(199, 194, 194);
+    padding: 10px;
+}
+
+.addTask .input{
+    width:70%;
+    color:black;
+    font-size: 18px;
+}
+.addTask button{
+    height: 30px;
+    width: 100px;
+    border-radius: 40%;
+    color:white;
+    background-color: blueviolet;
+}
+.taskList{
+    background-color: #eeaceb;
+}
+.Tasks{
+   padding: 10px;
+}
+
+.taskFill{
+    display: flex;
+    text-align: left;
+    margin-left:10px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid white;
+}
+
+.check{
+    width: 10%;
+}
+
+.TextTask{
+    display: flex;
+    width: 50%;
+}
+.actionButton{
+    display: flex;
+    text-align: right;
+    width: 40%;
+}
+
+.newTaskName{
+    font-size: 18px;
+    margin: auto;
+   padding-top: 20px;
+    border:1px solid red;
+    width:40%;
+    height:50px;
+}
